@@ -132,9 +132,8 @@ Follow the step-by-step guide: [deployment/QUICKSTART.md](deployment/QUICKSTART.
 
 ```
 .
-├── PRD_1.md                           # Product Requirements Document
-├── DEPLOYMENT_ROADMAP.md              # Comprehensive deployment guide
 ├── README.md                          # Project overview
+├── DEPLOYMENT_ROADMAP.md              # Comprehensive deployment guide
 │
 ├── notebooks/
 │   └── fraud_detection_training.ipynb        # Model training and comparison
