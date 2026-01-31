@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files (too large for Git)
+creditcard.csv
+*.csv
+*.zip
+sample_data/*.csv
+
+# Model artifacts (upload to GCS instead)
+artifacts/
+*.pkl
+*.h5
+*.joblib
+
+# GCP credentials
+*.json
+!deployment/cloud_function/requirements.txt
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
+
+# Temporary files
+SETUP_ENVIRONMENT.md
+GIT_SETUP.md
+NOTEBOOK_FIX_INSTRUCTIONS.md
+MODEL_TRAINING_CODE.py
+
+# Cloned reference notebook (someone else's work)
+Fraud-Detection/
